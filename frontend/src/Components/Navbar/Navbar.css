@@ -1,0 +1,8 @@
+.nav-ico{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-ico:hover{
+    cursor: pointer;
+    scale: 105%;
+}

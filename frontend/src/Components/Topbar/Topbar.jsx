@@ -11,9 +11,9 @@ const Topbar = () => {
     ]
 
   return (
-    <div className='border-b px-8 flex justify-between py-4 items-center'>
+    <div className='border-b px-8 md:px-16 flex justify-between py-4 items-center'>
       <MdKeyboardArrowLeft className="text-xs" />
-      <p className='text-xs'>{data[1].title}</p>
+      <p className='text-xs'>{data[0].title}</p>
       <MdKeyboardArrowRight className="text-xs" />
     </div>
   )
