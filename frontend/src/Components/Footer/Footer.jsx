@@ -17,7 +17,7 @@ const Footer = () => {
 
   return (
     <footer className="flex flex-col gap-4 px-8 md:px-20 pt-10">
-      <div className="flex flex-col gap-5 md:flex-row md:justify-between">
+      <div className="flex flex-col gap-5 md:gap-[50%] md:flex-row md:justify-center">
         <div className="flex flex-col gap-5">
           <h1 className="font-semibold text-lg">Quick Links</h1>
           <div className="flex flex-col gap-2">
