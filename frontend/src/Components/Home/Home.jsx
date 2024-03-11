@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Home = () => {
   return (
-    <div>
-      this is home page
+    <div className="min-h-screen bg-emerald-400 text-3xl">
+      This is custom goodybro homepage
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
